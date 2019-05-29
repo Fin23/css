@@ -1,0 +1,183 @@
+body{ 
+    
+    background-color: lightseagreen;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px; 
+    font-weight: 400;
+}
+#main-header{
+    text-align:center;
+    background-color:black;
+    color:white;
+    padding:10px;
+    border-radius: 15px;
+}
+#main-footer{
+    text-align: center;
+    font-size: 18px;
+}
+.button{
+    background-color:rgb(223, 18, 189);
+    color:#fff;
+    padding:10px 15px;
+    border:none;
+}
+.button:hover{
+    background:rgb(58, 24, 180);
+    color:white;
+}
+.clr{
+    clear:both; 
+}
+.box-1{
+    text-align:center;
+    border: 7px black solid;
+    background-color:lightskyblue;
+    padding:10px;
+    border-radius: 15px;
+    
+}
+.post{
+    text-align:center;
+    border: 7px black solid;
+    padding: 10px;
+    border-radius: 15px;
+    background-color:lightslategray
+}
+.categories{
+    border: 5px black solid;
+    background-color:lightgreen;
+    padding: 10px;
+    border-radius: 15px;
+
+}
+.categories h2{
+    text-align:center;
+
+}
+
+.categories ol{
+    padding:0;
+    padding-left:20px;
+    list-style:spuare;
+    list-style:none;
+
+    padding-bottom: 6px;
+    border-bottom:dotted 1 px #333;
+    list-style-image: url('../images/check.png');
+
+}
+
+.my-fom{
+    padding:20px
+}
+
+.my-form .form-group{
+    padding-bottom:15px;
+}
+.my-form label{
+    display:block;
+}
+.my-form input[type="text"], .my-form textarea{
+    padding:8px;
+    width:50%;
+}
+.block{
+    float:left;
+    width:33.3%;
+    border:1px dotted black;
+    padding:10px;
+    box-sizing:border-box;
+
+}
+
+#main-block{
+    float:left;
+    width:70%;
+    background-color: coral;
+    padding:15px;
+    box-sizing: border-box;
+
+}
+#sidebar{
+    float:right;
+    width:30%;
+    background-color:cornflowerblue;
+    color:#fff;
+    padding:15px;
+    box-sizing: border-box;
+
+}
+    
+.p-box{
+    widows: 400px;
+    height:350px;
+    border:1px solid #000;
+    margin-top:30px;
+    position:relative;
+    background-image:url('../My\ Pictures/bgimage.jpg');
+    background-repeat: no-repeat;
+    background-position: 100px 200px;
+    background-position: center center;
+}
+.p-box h1{
+    position:absolute;
+    top:50px;
+    left:100px;
+    color:white;
+}
+.p-box h2{
+    position:absolute;
+    bottom:40px;
+    right:50px;
+}
+.fix-me{
+    position:fixed;
+    top:400px;
+}
+
+.my-list li:first-child{
+     background: red;
+}
+
+.my-list li:last-child{
+    background: blue;
+}
+
+.my-list li:nth-child(5){
+    background: yellow;
+}
+
+.my-list li:nth-child(even){
+    background: grey;
+}
+
+#navbar{
+    background-color:darkslategray;
+    color:white;
+
+    border: 7px black solid;
+    border-color:black;
+    padding:10px;
+    border-radius: 15px;
+    
+    
+
+}
+#navbar ul{
+    padding:0;
+    list-style: none;
+}
+
+#navbar li{
+    text-align:center;
+    display: inline-block;
+}
+
+
+#navbar a{
+    color:#fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right:15px;
+}
